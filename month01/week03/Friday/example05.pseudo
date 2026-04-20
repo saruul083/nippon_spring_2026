@@ -1,0 +1,8 @@
+BEGIN
+    SET door = "open"
+    WHILE door = "open" door
+        OUTPUT "Close the door"
+        INPUT door
+    ENDWHILE
+    OUTPUT "door is closed"
+END

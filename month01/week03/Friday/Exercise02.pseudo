@@ -1,0 +1,11 @@
+BEGIN
+    SET max = 0
+    FOR i <-1 to 5
+            OUTPUT "Please give me number"
+        INPUT num    
+        IF max < num
+            max = num
+        ENDIF
+    ENDFOR
+    OUTPUT "Highest number is " + max 
+END

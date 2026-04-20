@@ -1,0 +1,6 @@
+BEGIN
+    OUTPUT "Hello"
+    OUTPUT "What time is it?"
+    INPUT "time"
+    OUTPUT "I see, it's " + time + " now"
+END

@@ -1,0 +1,8 @@
+BEGIN
+    INPUT hour
+    IF hour >= 9 AND hour <= 21 THEN
+        OUTPUT "Store is opened"
+    ELSE
+        OUTPUT "Store is closed"
+    ENDIF
+ENDv

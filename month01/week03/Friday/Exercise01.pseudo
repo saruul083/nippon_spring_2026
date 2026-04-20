@@ -1,0 +1,25 @@
+BEGIN
+    OUTPUT "Please enter 1st number"
+    INPUT A
+    OUTPUT "Please enter operator(+, -, *, /)"
+    INPUT OPERATOR
+    OUTPUT "Please enter 2nd number"
+    INPUT B
+    IF OPERATOR == +
+        SET SUM = A + B
+            OUTPUT A + operator + B + "=" + SUM
+    ELSEIF OPERATOR == - 
+        SET SUM = A - B
+            OUTPUT A + operator + B + "=" + SUM
+    ELSEIF OPERATOR == *
+        SET SUM = A * B
+            OUTPUT A + operator + B + "=" + SUM
+    ELSEIF OPERATOR == /
+        SET SUM = A / B
+            OUTPUT A + operator + B + "=" + SUM
+    ELSEIF OPERATOR == / AND B = 0
+            OUTPUT "Error"
+    ELSE
+            OUTPUT "Please enter either +, -, *, / on operator"
+    ENDIF
+END
