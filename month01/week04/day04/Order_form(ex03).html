@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+</head>
+<body>
+    <div>
+        <form action="#">
+            
+            <label for="food">
+                Food_name
+                <input type="text">
+            </label>
+
+            <br>
+
+            <label for="amount">
+                Amount
+                <input type="number" min="1">
+            </label>
+
+            <br>
+            
+            <h2>Location</h2>
+            <div>
+                <textarea name="location" id="" cols="40" rows="5"></textarea>
+            </div>
+            
+            <p>Delivary method</p>
+            <input type="radio" id="delivary" name="delivary_method" value="delivary">
+            <label for="delivary">Delivary</label>
+            <input type="radio" id="self" name="delivary_method" value="self">
+            <label for="self">Self</label>
+            
+            <br>
+
+            <button type="button">Order</button>
+        </form>
+    </div>
+</body>
+</html>

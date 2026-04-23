@@ -1,4 +1,4 @@
-package month01.week04.day03.Exercises;
+package month01.week04.day03;
 
 public class CharASCII {
     public static void main(String[] args) {
@@ -12,6 +12,6 @@ public class CharASCII {
         // Том → жижиг
         char upper = 'G';
         char lower = (char) (upper + 32);
-        System.out.println(lower);  // g
+       System.out.println(lower);  // g
     }
 }
