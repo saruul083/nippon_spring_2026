@@ -1,0 +1,32 @@
+section {
+    height: 400px;
+    width: 400px;
+    background-color: wheat;
+    text-align: center;
+    color: blue;
+}
+
+#one {
+    color: aqua;
+}
+
+#two {
+    color: rgb(134, 145, 155);
+}
+
+#three {
+    color: violet;
+}
+li {
+    font-size: 30px;
+    color: blue;
+}
+.japanese {
+    color: pink;
+}
+.italian {
+    color: green;
+}
+.german {
+    color: brown;
+}
