@@ -1,0 +1,58 @@
+#das01 {
+    background-color: violet;
+    width: 300px;
+    height: 200px;
+}
+
+#das02 {
+    height: 300px;
+    width: 500px;
+    background-color: aqua;
+}
+
+#das03  {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin: 100px;
+}
+
+#das04 {
+    height: 200px;
+    overflow-y: scroll;
+    background-color: aqua  ;
+}
+
+#das05a {
+    height: 200px;
+    overflow-y: scroll;
+    background-color: aquamarine;
+}
+
+#das05b {
+    height: 100px;
+    overflow-y: scroll;
+    width: 300px;
+    background-color: pink;
+
+}
+
+#das05c {
+    height: 100px;
+    overflow-y: scroll;
+    width: 300px;
+    background-color: yellowgreen;
+}
+
+#das06 {
+    width: 33%;
+    background-color: aquamarine;
+    border: 1px;
+    height: 100px;
+}
+
+#das07 {
+    max-width: 400px;
+    min-width: 200px;
+    background-color: aquamarine;
+}
