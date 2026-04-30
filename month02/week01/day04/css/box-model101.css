@@ -1,0 +1,47 @@
+h1 {
+    font-size: 30px;
+    color: aqua;
+}
+
+h2 {
+    font-size: 20px;
+    color: yellowgreen
+}
+
+#box {
+    color: blue;
+}
+
+#box {
+    color: brown;
+}
+
+#section-01 {
+    width: 400px;
+    height: 400px;
+    background-color: beige;  
+    border-color: tomato;
+    border-style: dotted;
+    border-width: 3px; 
+}
+
+#section-02 {
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    color: red;
+    border-top-color: blue;
+    border-top-width: 15px;
+    border-top-style: double;
+    border-bottom-color: brown;
+    border-bottom-width: 20px;
+    border-bottom-style: dashed;
+}
+
+#section-03 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(127, 144, 255);
+    color: white;
+    border: 10px solid orange;
+}
