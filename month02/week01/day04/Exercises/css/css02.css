@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 #das01 {
     background-color: violet;
     width: 300px;
@@ -54,5 +57,29 @@
 #das07 {
     max-width: 400px;
     min-width: 200px;
+    background-color: aquamarine;
+}
+
+#das08 {
+    max-height: 300px;
+    min-height: 100px;
+    background-color: aquamarine;
+    width: 100px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#das09 {
+    width: 300px;
+    height: 300px;
+}
+
+#das10 {
+    height: 50px;
+    max-width: 300px;
+    overflow-x: scroll;
     background-color: aquamarine;
 }

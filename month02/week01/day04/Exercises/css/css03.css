@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+#das01 {
+    border-top: 2px solid red;
+    border-right: 2px dashed green;
+    border-bottom: 2px dotted blue;
+    border-left: 2px solid orange;
+    width: 200px;
+    height: 200px;
+}
+
+#das02 {
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+#das03-1 {
+    margin: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+#das03-2 {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+#das04 {
+    width: 200px;
+    padding: 20px;
+    border: 2px solid black;
+}
