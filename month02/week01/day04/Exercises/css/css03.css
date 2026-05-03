@@ -39,4 +39,132 @@
     width: 200px;
     padding: 20px;
     border: 2px solid black;
+    background-color: red;
+}
+
+#das05-1 {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+#das05-2 {
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    box-sizing: unset;
+}
+
+#das06-1 {
+    width: 200px;
+    padding: 20px;
+    margin: -20px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    display: inline-block;
+}
+
+#das06-2 {
+    width: 200px;
+    padding: 20px;
+    margin: -20px;
+    border: 2px solid black;
+    background-color: red;
+    display: inline-block;
+}
+
+#das07 {
+    padding: 80px;
+    background-color: green;
+    border: 2px solid black;
+}
+
+#das08 {
+    margin: 10px;
+    border: 2px solid black;
+    background-color: red;
+}
+
+#das09-1 {
+    background-color: blue;
+    border: black 5px dashed;
+}
+
+#das09-2 {
+    background-color: red;
+    color: white;
+    margin: 10px;
+}
+
+#das10 {
+    background-color: blue;
+    height: 200px;
+    padding: 20px;
+}
+
+#das10-1 {
+    background-color: green;
+    border: 2px solid black;
+    margin: 10px 10px 5px;
+    height: 40px;
+}
+
+#das10-2 {
+    background-color: pink;
+    border: 2px dashed black;
+    margin:5px 20px 20px;
+}
+
+#das11 {
+    background-color: pink;
+    padding: 10px;
+}
+
+#das11-1 {
+    margin: 0px;
+    text-align: left;
+    border-top: 2px solid pink;
+    border-right: 2px solid pink;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    padding: 5px;
+}
+
+#das11-2 {
+    margin: 0px;
+    text-align: right;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid pink;
+    padding: 5px;
+}
+
+#das11-3 {
+    margin: 0px;
+    text-align: left;
+    border-right: 2px solid pink;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    padding: 5px;
+}
+
+#das11-4 {
+    margin: 0px;
+    text-align: right;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid pink;
+    padding: 5px;
+}
+
+#das11-5 {
+    margin: 0px;
+    text-align: left;
+   
+    border-bottom: 2px solid black;
+    border-right: 2px solid pink;
+    border-left: 2px solid black;
+    padding: 5px;
 }
