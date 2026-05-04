@@ -1,0 +1,33 @@
+main {
+    width: 1440px;
+    height: 100vh;
+    background-color: #EFF3BF;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container {
+    width: 510px;
+    height: 755px;
+    background-color: white;
+    border-radius: 64px;
+    margin: auto;
+
+    position: absolute;
+
+    top: 10%;
+    left: 33%;
+}
+
+.container img#profile {
+    position: absolute;
+    top: 10px;
+    left: 30%;
+}
+
+.icon {
+    position: relative;
+    top: 250px;
+    left: 14%;
+    margin: 15px;
+}
