@@ -1,0 +1,28 @@
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.gallery {
+    float: left;
+    width: 22%;
+    margin: 1.5%;
+    border: 0.5% solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.navi {
+    float: right;
+    width: 6%;
+}
+
+.logo-1 {
+    float: left;
+}
+
+.column {
+    float: left;
+    width: 45%;
+}

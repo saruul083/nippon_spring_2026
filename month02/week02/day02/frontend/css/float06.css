@@ -1,0 +1,30 @@
+
+.child-left {
+    float: left;
+    width: 40%;
+    margin-bottom: 10px;
+    border: 2px black solid;
+    background-color: teal;
+    padding: 20px;
+}
+.child-right {
+    float: right;
+    width: 40%;
+    margin-bottom: 10px;
+    border: 2px black solid;
+    background-color: teal;
+    padding: 20px;
+}
+
+.next-section {
+    clear:both ;
+    width: 200px;
+    border: 2px black solid;
+    background-color: teal;
+}
+
+.clearfix::after{
+    clear: both;
+    content: '';
+    display: block;
+}

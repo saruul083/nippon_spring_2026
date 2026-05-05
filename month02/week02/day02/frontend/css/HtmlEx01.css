@@ -1,0 +1,32 @@
+.floating {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.clearfix::after{
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.float02-left {
+    background-color: orange;
+    border: 2px solid black;
+    float: left;
+    width: 30%;
+}
+
+.float02-right {
+    background-color: orange;
+    border: 2px solid black;
+    float: left;
+    width: 65%;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    margin: 1.66%;
+    background-color: teal;
+}

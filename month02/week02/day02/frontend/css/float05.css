@@ -1,0 +1,11 @@
+.float-left {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.force-below {
+    clear: left;
+    font-size: 1.8em;
+    color: gray;
+}
