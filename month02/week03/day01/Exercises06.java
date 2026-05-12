@@ -17,10 +17,16 @@ public class Exercises06 {
         return 0.5 * base * height;
     }
     static boolean isPrime(int n){
-        for(int i = 2 ; i < n; i++) {
-            return n % i == 0;
+
+        if(n <= 1) {
+            return false;
         }
-        return false;
+        for(int i = 2 ; i <= Math.sqrt(n); i++) {
+            if (n % 1 == 0) {
+                return false;
+            }
+        }
+        return true;
     }
     public static void main(String[] args) {
         
