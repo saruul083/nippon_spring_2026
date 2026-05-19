@@ -23,7 +23,7 @@ public class Main {
         // System.out.println(Cat.gender);
         // System.out.println(Cat.age);
 
-        Child myChild = new Child("Saruulbilegt", 23);
+        // Child myChild = new Child("Saruulbilegt", 23);
         // System.out.println(myChild.age);
         // System.out.println(myChild.name);
 
