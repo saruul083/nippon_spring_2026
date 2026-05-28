@@ -12,4 +12,5 @@ public class Shape {
     void showInfo() {
         System.out.printf("%s [%s}]: Talbai=%.2f, Permiter=%.2f%n", getClass().getSimpleName(), color, area(), perimeter());
     }
+
 }
