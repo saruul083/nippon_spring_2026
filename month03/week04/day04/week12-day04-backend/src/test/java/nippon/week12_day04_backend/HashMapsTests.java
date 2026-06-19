@@ -5,9 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import java.time.chrono.IsoChronology;
+
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
 
 import org.junit.jupiter.api.Test;
@@ -17,7 +16,6 @@ public class HashMapsTests {
 	@Test
 	public void testBasicPutAndGet() {
 		Map<String, Integer> studentGrades = new HashMap<String, Integer>();
-		Map<String, String> dictionary = new HashMap<String, String>();
 		
 		studentGrades.put("Alice", 95);
 		studentGrades.put("Bob", 82);

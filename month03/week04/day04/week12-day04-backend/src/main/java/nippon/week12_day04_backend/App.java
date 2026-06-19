@@ -1,8 +1,6 @@
 package nippon.week12_day04_backend;
 
-import java.awt.print.Printable;
 import java.util.ArrayList;
-import java.util.Iterator;
 
 /**
  * Hello world!
